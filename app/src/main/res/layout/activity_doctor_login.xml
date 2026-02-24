@@ -5,6 +5,55 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorLogin">
+    tools:context=".DoctorLogin"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/TextFieldStyle"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contraseña"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        style="@style/TextFieldStyle"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="251dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

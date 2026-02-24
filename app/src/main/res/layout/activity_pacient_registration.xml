@@ -153,6 +153,14 @@
             android:hint="@string/confcontraseña"
             android:inputType="textPassword"
             android:layout_marginBottom="32dp" />
+        <Button
+            android:id="@+id/btnsave"
+            style="@style/BtnStyle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_marginBottom="16dp"/>
 
     </LinearLayout>
     </ScrollView>

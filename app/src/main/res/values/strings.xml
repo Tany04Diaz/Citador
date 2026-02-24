@@ -17,4 +17,5 @@
     <string name="horaApert">Horario Apertura</string>
     <string name="horaCierre">Horario Cierre</string>
     <string name="hatencion">Horarios de atencion</string>
+    <string name="save">Guardar</string>
 </resources>
