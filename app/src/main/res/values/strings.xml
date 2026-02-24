@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Prototipo</string>
+    <string name="register">Registrarse</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="patient">Paciente</string>
+    <string name="medic">Medico</string>
+    <string name="name">Nombre(s)</string>
+    <string name="nombres">Nombre(s)</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="fechanac">Fecha de nacimiento</string>
+    <string name="cedula">Cedula profesional</string>
+    <string name="email">Correo Electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confcontraseña">Confirmar contraseña</string>
+    <string name="numtelf">Numero telefonico</string>
+    <string name="localidad">Localidad</string>
+    <string name="horaApert">Horario Apertura</string>
+    <string name="horaCierre">Horario Cierre</string>
+    <string name="hatencion">Horarios de atencion</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:buttonCornerRadius">5dp</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+</resources>

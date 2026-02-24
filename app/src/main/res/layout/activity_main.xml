@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="221dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="292dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/register"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/LogInMedico"
+        style="@style/BtnStyle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/medic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LogInPaciente"
+        style="@style/BtnStyle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/patient"
+        app:layout_constraintEnd_toEndOf="@+id/LogInMedico"
+        app:layout_constraintStart_toStartOf="@+id/LogInMedico"
+        app:layout_constraintTop_toBottomOf="@+id/LogInMedico" />
+
+    <Button
+        android:id="@+id/SingInMedico"
+        style="@style/BtnStyle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/medic"
+        app:layout_constraintEnd_toEndOf="@+id/LogInPaciente"
+        app:layout_constraintStart_toStartOf="@+id/LogInPaciente"
+        app:layout_constraintTop_toBottomOf="@+id/LogInPaciente" />
+
+    <Button
+        android:id="@+id/SingInPaciente"
+        style="@style/BtnStyle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/patient"
+        app:layout_constraintEnd_toEndOf="@+id/SingInMedico"
+        app:layout_constraintStart_toStartOf="@+id/SingInMedico"
+        app:layout_constraintTop_toBottomOf="@+id/SingInMedico" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
